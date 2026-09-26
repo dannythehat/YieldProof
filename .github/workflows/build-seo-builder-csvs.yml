@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build-seo-builder-csvs.mjs'
+      - '.github/workflows/build-seo-builder-csvs.yml'
   workflow_dispatch:
 
 permissions:
