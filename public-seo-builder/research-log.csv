@@ -1,0 +1,14 @@
+Item,Value,Notes
+Research date,2026-09-26,
+Market,United States,
+Language,English,
+Data source,DataForSEO,
+Initial broad research cost (USD),0.75668,Keyword overview + 16 expansion roots + live SERPs
+Corrected overview repair cost (USD),0.05604,Platform-specific keyword overview repair
+Total DataForSEO cost (USD),0.81272,Actual API spend
+Seed queries,734,Platform modifiers + broad market seeds
+Unique keyword universe,1177,Merged DataForSEO keyword set
+Live SERP queries,40,US desktop
+Tracked platforms,42,Platform review/withdrawal/scam/legit terms
+Builder rule,Build Queue is curated,Keyword Universe is raw intelligence; do not auto-publish blindly
+Core editorial rule,First-party evidence wins,Search demand chooses focus; evidence decides what YieldProof can truthfully say
