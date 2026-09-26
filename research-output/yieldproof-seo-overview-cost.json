@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-26T08:28:21.371Z",
+  "totalCostUsd": 0.05604,
+  "costLog": [
+    {
+      "label": "keyword overview 1-200",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.01776,
+      "runningTotalUsd": 0.01776
+    },
+    {
+      "label": "keyword overview 201-400",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.0126,
+      "runningTotalUsd": 0.03036
+    },
+    {
+      "label": "keyword overview 401-600",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.01284,
+      "runningTotalUsd": 0.0432
+    },
+    {
+      "label": "keyword overview 601-734",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.01284,
+      "runningTotalUsd": 0.05604
+    }
+  ]
+}
