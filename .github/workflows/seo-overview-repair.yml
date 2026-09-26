@@ -1,0 +1,40 @@
+name: YieldProof SEO Overview Repair
+
+on:
+  push:
+    branches:
+      - "research/seo-overview-repair"
+    paths-ignore:
+      - "research-output/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run corrected DataForSEO keyword overview
+        run: node scripts/seo-overview-repair.mjs
+        env:
+          DATAFORSEO_BASIC_AUTH: ${{ secrets.DATAFORSEO_BASIC_AUTH }}
+      - name: Commit sanitised overview output
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f research-output/yieldproof-seo-overview.json research-output/yieldproof-seo-overview-cost.json
+          git commit -m "Record corrected YieldProof keyword overview [skip ci]" || exit 0
+          git push origin HEAD:${GITHUB_REF_NAME}
+      - name: Upload overview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: yieldproof-seo-overview
+          path: research-output/yieldproof-seo-overview*.json
+          retention-days: 30
