@@ -1,0 +1,462 @@
+{
+  "generatedAt": "2026-09-26T08:21:35.085Z",
+  "totalCostUsd": 0.75668,
+  "costLog": [
+    {
+      "label": "keyword overview 1-200",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.01776,
+      "runningTotalUsd": 0.01776
+    },
+    {
+      "label": "keyword overview 201-400",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.0126,
+      "runningTotalUsd": 0.03036
+    },
+    {
+      "label": "keyword overview 401-600",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.01284,
+      "runningTotalUsd": 0.0432
+    },
+    {
+      "label": "keyword overview 601-734",
+      "path": "/dataforseo_labs/google/keyword_overview/live",
+      "cost": 0.01284,
+      "runningTotalUsd": 0.05604
+    },
+    {
+      "label": "related keywords: high yield investment platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.01212,
+      "runningTotalUsd": 0.06816
+    },
+    {
+      "label": "keyword suggestions: high yield investment platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01212,
+      "runningTotalUsd": 0.08028
+    },
+    {
+      "label": "related keywords: daily return investment sites",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.012,
+      "runningTotalUsd": 0.09228
+    },
+    {
+      "label": "keyword suggestions: daily return investment sites",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.012,
+      "runningTotalUsd": 0.10428
+    },
+    {
+      "label": "related keywords: passive income crypto",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.03156,
+      "runningTotalUsd": 0.13584
+    },
+    {
+      "label": "keyword suggestions: passive income crypto",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.03684,
+      "runningTotalUsd": 0.17268
+    },
+    {
+      "label": "related keywords: crypto yield platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.01212,
+      "runningTotalUsd": 0.1848
+    },
+    {
+      "label": "keyword suggestions: crypto yield platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01248,
+      "runningTotalUsd": 0.19728
+    },
+    {
+      "label": "related keywords: crypto staking platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.02844,
+      "runningTotalUsd": 0.22572
+    },
+    {
+      "label": "keyword suggestions: crypto staking platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01356,
+      "runningTotalUsd": 0.23928
+    },
+    {
+      "label": "related keywords: crypto lending platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.015,
+      "runningTotalUsd": 0.25428
+    },
+    {
+      "label": "keyword suggestions: crypto lending platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01428,
+      "runningTotalUsd": 0.26856
+    },
+    {
+      "label": "related keywords: copy trading platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.01608,
+      "runningTotalUsd": 0.28464
+    },
+    {
+      "label": "keyword suggestions: copy trading platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01428,
+      "runningTotalUsd": 0.29892
+    },
+    {
+      "label": "related keywords: AI trading platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.02316,
+      "runningTotalUsd": 0.32208
+    },
+    {
+      "label": "keyword suggestions: AI trading platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.0144,
+      "runningTotalUsd": 0.33648
+    },
+    {
+      "label": "related keywords: investment withdrawal proof",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.012,
+      "runningTotalUsd": 0.34848
+    },
+    {
+      "label": "keyword suggestions: investment withdrawal proof",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.012,
+      "runningTotalUsd": 0.36048
+    },
+    {
+      "label": "related keywords: payout proof",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.012,
+      "runningTotalUsd": 0.37248
+    },
+    {
+      "label": "keyword suggestions: payout proof",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01704,
+      "runningTotalUsd": 0.38952
+    },
+    {
+      "label": "related keywords: investment recovery calculator",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.02484,
+      "runningTotalUsd": 0.41436
+    },
+    {
+      "label": "keyword suggestions: investment recovery calculator",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01212,
+      "runningTotalUsd": 0.42648
+    },
+    {
+      "label": "related keywords: crypto yield calculator",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.03288,
+      "runningTotalUsd": 0.45936
+    },
+    {
+      "label": "keyword suggestions: crypto yield calculator",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.0126,
+      "runningTotalUsd": 0.47196
+    },
+    {
+      "label": "related keywords: HYIP monitor",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.0204,
+      "runningTotalUsd": 0.49236
+    },
+    {
+      "label": "keyword suggestions: HYIP monitor",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.0246,
+      "runningTotalUsd": 0.51696
+    },
+    {
+      "label": "related keywords: HYIP reviews",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.02124,
+      "runningTotalUsd": 0.5382
+    },
+    {
+      "label": "keyword suggestions: HYIP reviews",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01224,
+      "runningTotalUsd": 0.55044
+    },
+    {
+      "label": "related keywords: stablecoin yield platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.012,
+      "runningTotalUsd": 0.56244
+    },
+    {
+      "label": "keyword suggestions: stablecoin yield platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.012,
+      "runningTotalUsd": 0.57444
+    },
+    {
+      "label": "related keywords: DeFi yield platforms",
+      "path": "/dataforseo_labs/google/related_keywords/live",
+      "cost": 0.01212,
+      "runningTotalUsd": 0.58656
+    },
+    {
+      "label": "keyword suggestions: DeFi yield platforms",
+      "path": "/dataforseo_labs/google/keyword_suggestions/live",
+      "cost": 0.01212,
+      "runningTotalUsd": 0.59868
+    },
+    {
+      "label": "live SERP: high yield investment platforms",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.60268
+    },
+    {
+      "label": "live SERP: daily return investment sites",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.60668
+    },
+    {
+      "label": "live SERP: passive income crypto platforms",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.61068
+    },
+    {
+      "label": "live SERP: crypto yield platforms",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.61468
+    },
+    {
+      "label": "live SERP: crypto staking platforms",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.61868
+    },
+    {
+      "label": "live SERP: crypto lending platforms",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.62268
+    },
+    {
+      "label": "live SERP: copy trading platforms",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.62668
+    },
+    {
+      "label": "live SERP: AI trading platforms",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.63068
+    },
+    {
+      "label": "live SERP: investment withdrawal proof",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.63468
+    },
+    {
+      "label": "live SERP: payout proof",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.63868
+    },
+    {
+      "label": "live SERP: investment recovery calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.64268
+    },
+    {
+      "label": "live SERP: crypto yield calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.64668
+    },
+    {
+      "label": "live SERP: HYIP monitor",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.65068
+    },
+    {
+      "label": "live SERP: HYIP reviews",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.65468
+    },
+    {
+      "label": "live SERP: Winvest review",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.65868
+    },
+    {
+      "label": "live SERP: Winvest withdrawal",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.66268
+    },
+    {
+      "label": "live SERP: TAG Markets review",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.66668
+    },
+    {
+      "label": "live SERP: CopyX review",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.67068
+    },
+    {
+      "label": "live SERP: coinbase",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.67468
+    },
+    {
+      "label": "live SERP: compound interest calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.002,
+      "runningTotalUsd": 0.67668
+    },
+    {
+      "label": "live SERP: loan calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.68068
+    },
+    {
+      "label": "live SERP: investment calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.68468
+    },
+    {
+      "label": "live SERP: calculator investment",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.68868
+    },
+    {
+      "label": "live SERP: compound interest formula",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.69268
+    },
+    {
+      "label": "live SERP: apy calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.69668
+    },
+    {
+      "label": "live SERP: interest rate calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.70068
+    },
+    {
+      "label": "live SERP: interest rates today: 30-year fixed",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.70468
+    },
+    {
+      "label": "live SERP: compound calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.70868
+    },
+    {
+      "label": "live SERP: apr calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.71268
+    },
+    {
+      "label": "live SERP: coinbase wallet",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.71668
+    },
+    {
+      "label": "live SERP: simple interest calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.72068
+    },
+    {
+      "label": "live SERP: ai trader",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.72468
+    },
+    {
+      "label": "live SERP: return on investment calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.72868
+    },
+    {
+      "label": "live SERP: roi calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.73268
+    },
+    {
+      "label": "live SERP: daily compound interest calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.73668
+    },
+    {
+      "label": "live SERP: continuous compound interest formula",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.74068
+    },
+    {
+      "label": "live SERP: investment return formula",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.74468
+    },
+    {
+      "label": "live SERP: crypto calculator",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.74868
+    },
+    {
+      "label": "live SERP: daily interest rate mortgage",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.75268
+    },
+    {
+      "label": "live SERP: exodus wallet",
+      "path": "/serp/google/organic/live/advanced",
+      "cost": 0.004,
+      "runningTotalUsd": 0.75668
+    }
+  ]
+}
