@@ -42,8 +42,10 @@ for (const market of markets) {
   spent += cost;
   costs.push({market: market.name, costUsd: cost});
   for (const task of payload.tasks ?? []) {
-    for (const r of task.result ?? []) {
-      if (!r?.keyword) continue;
+    for (const result of task.result ?? []) {
+      for (const item of result.items ?? (result.keyword ? [result] : [])) {
+        const r = item.keyword_data ?? item;
+        if (!r?.keyword) continue;
       const info = r.keyword_info ?? {};
       records.push({
         keyword: r.keyword,
@@ -56,10 +58,12 @@ for (const market of markets) {
         keywordDifficulty: r.keyword_properties?.keyword_difficulty ?? null,
         searchIntent: r.search_intent_info?.main_intent ?? null,
         lastUpdated: info.last_updated_time ?? null
-      });
+        });
+      }
     }
   }
 }
+if (records.length === 0) throw new Error('Provider returned no extracted keyword rows; preserve fail-closed status');
 const report = {
   vendor: "DataForSEO", endpoint: "dataforseo_labs/google/keyword_overview/live",
   requestedAtUtc: new Date().toISOString(),
