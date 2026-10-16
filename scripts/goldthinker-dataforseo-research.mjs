@@ -5,17 +5,17 @@ import { mkdirSync, writeFileSync } from "node:fs";
 const secret = process.env.DATAFORSEO_BASIC_AUTH?.trim();
 if (!secret) throw new Error("Existing repository DATAFORSEO_BASIC_AUTH secret unavailable");
 const pageSeeds = {
-  home: ["gold trading bot", "automated gold trading", "gold trading system", "gold trading robot", "xauusd trading bot", "gold algorithmic trading"],
-  how_it_works: ["how to test trading bots", "gold trading backtest", "how to backtest gold trading strategy", "trading bot backtesting", "forward testing trading strategies", "how to evaluate a trading bot"],
-  systems: ["best gold trading bots", "best gold ea mt5", "best xauusd ea", "xauusd expert advisor", "gold expert advisor", "gold automated trading system"],
-  system_profile: ["gold trading strategy performance", "gold ea verified results", "gold trading bot performance", "gold trading robot drawdown", "mt5 ea trading history"],
-  premium_10: ["gold trading bots portfolio", "multi strategy trading bot", "automated gold trading portfolio", "mt5 portfolio trading", "gold copy trading"],
-  results: ["verified gold trading results", "forex trading bot track record", "gold ea live results", "gold ea backtest results", "xauusd backtest results", "mt5 trading bot performance"],
-  research_lab: ["xauusd historical data", "gold backtesting data", "gold trading risk management", "gold trading strategy research", "mt5 strategy tester gold"],
-  submit_strategy: ["test my trading strategy", "trading strategy backtesting service", "independent trading strategy backtesting", "submit trading strategy for testing", "backtest expert advisor"],
-  mt5_connections: ["connect mt5 account", "mt5 automated trading", "mt5 copy trading", "how to connect mt5 trading bot", "metatrader 5 trading bot"],
-  risk_and_faq: ["how risky are trading bots", "trading bot max drawdown", "gold trading bot scam", "are gold trading bots profitable", "gold expert advisor slippage"],
-  research_journal: ["best xauusd trading strategies", "gold trading strategy bull bear market", "gold trading bot real account", "gold ea forward test", "how to verify forex trading results"]
+  home: ["gold trading bots", "forex trading bot", "gold trading software", "automated trading software", "gold trading bot", "automated gold trading", "gold trading system", "gold trading robot", "xauusd trading bot", "gold algorithmic trading"],
+  how_it_works: ["trading strategy backtesting", "trading backtesting", "how to backtest a trading strategy", "how to test a trading strategy", "forex backtesting", "how to test trading bots", "gold trading backtest", "how to backtest gold trading strategy", "trading bot backtesting", "forward testing trading strategies", "how to evaluate a trading bot"],
+  systems: ["best forex trading bots", "best forex robot", "best mt5 expert advisor", "expert advisor gold", "forex expert advisor", "best gold trading bots", "best gold ea mt5", "best xauusd ea", "xauusd expert advisor", "gold expert advisor", "gold automated trading system"],
+  system_profile: ["forex trading results", "myfxbook trading results", "verified trading results", "trading bot results", "gold trading strategy performance", "gold ea verified results", "gold trading bot performance", "gold trading robot drawdown", "mt5 ea trading history"],
+  premium_10: ["trading bot portfolio", "best copy trading platform", "forex copy trading", "multi strategy trading", "algorithmic trading portfolio", "gold trading bots portfolio", "multi strategy trading bot", "automated gold trading portfolio", "mt5 portfolio trading", "gold copy trading"],
+  results: ["live forex trading results", "verified forex trading results", "forex trading track record", "trading strategy performance", "fxblue verification", "verified gold trading results", "forex trading bot track record", "gold ea live results", "gold ea backtest results", "xauusd backtest results", "mt5 trading bot performance"],
+  research_lab: ["gold price historical data", "historical gold prices", "forex backtesting data", "xauusd tick data", "gold trading historical data", "xauusd historical data", "gold backtesting data", "gold trading risk management", "gold trading strategy research", "mt5 strategy tester gold"],
+  submit_strategy: ["backtest trading strategy online", "trading strategy backtesting service", "strategy backtesting", "forex ea backtesting service", "test my trading strategy", "trading strategy backtesting service", "independent trading strategy backtesting", "submit trading strategy for testing", "backtest expert advisor"],
+  mt5_connections: ["metatrader 5 copy trading", "mt5 ea hosting", "mt5 vps", "mt5 trading robot", "metatrader 5 expert advisor", "connect mt5 account", "mt5 automated trading", "mt5 copy trading", "how to connect mt5 trading bot", "metatrader 5 trading bot"],
+  risk_and_faq: ["trading drawdown", "maximum drawdown trading", "forex trading slippage", "trading bot risks", "are trading bots safe", "how risky are trading bots", "trading bot max drawdown", "gold trading bot scam", "are gold trading bots profitable", "gold expert advisor slippage"],
+  research_journal: ["gold trading strategies", "best gold trading strategy", "how to trade xauusd", "gold trading technical analysis", "bull market vs bear market trading strategy", "best xauusd trading strategies", "gold trading strategy bull bear market", "gold trading bot real account", "gold ea forward test", "how to verify forex trading results"]
 };
 const unique = [...new Set(Object.values(pageSeeds).flat())];
 const markets = [
